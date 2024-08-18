@@ -6,10 +6,8 @@ import Function from './Components/Function';
 import ClassComp from './Counter App/ClassComp';
 import FunctionComp from './Counter App/Function-Comp';
 import FunComp from './Hooks/FunctionComp';
-
-
-
-
+import Funprops from './Props/Function Component/Funprops';
+import Classprop from './Props/Class Component/Classprop';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -19,6 +17,8 @@ root.render(
    <ClassComp/>
    <FunctionComp/>
    <FunComp/>
+   <Funprops text={{name: "Ravi this is function component"}}/>
+   <Classprop text={"Ravi this is Class Component"} />
   </React.StrictMode>
 );
 
