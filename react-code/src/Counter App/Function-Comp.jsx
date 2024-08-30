@@ -25,7 +25,6 @@ export default function FunctionComp() {
         <button onClick={inc}>Increment</button>
         <button onClick={dec}>Decrement</button>
         <button onClick={res}>Reset</button>
-        
     </div>
   )
 }

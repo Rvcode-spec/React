@@ -1,8 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Parent from './Props/Function Component/Props  Types/Parent';
-import PassArray from './- Array/PassArray';
+// import Parent from './Props/Function Component/Props  Types/Parent';
+// import PassArray from './- Array/PassArray';
+// import ArrayPrices from './- Array/ArrayPrices';
+import Frist from './Factor/frist';
 // import Class from './Components/Class';
 // import Function from './Components/Function';
 // import ClassComp from './Counter App/ClassComp';
@@ -22,7 +24,9 @@ root.render(
    {/* <Funprops text={{name: "Ravi this is function component"}}/>
    <Classprop text={"Ravi this is Class Component"} /> */}
    {/* <Parent/> */}
-   <PassArray/>
+   {/* <PassArray/> */}
+   {/* <ArrayPrices/> */}
+   <Frist/>
   </React.StrictMode>
 );
 
