@@ -17,8 +17,6 @@ export default function Frist() {
             setCount(0);
         }
 
-
-
     function Incfactor(){
         setFactor(factor+1);
     }
