@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import SubmitForm from './Input/SubmitForm';
+import Toping from './ContextApi/Toping';
 // import Parent from './Props/Function Component/Props  Types/Parent';
 // import PassArray from './- Array/PassArray';
 // import ArrayPrices from './- Array/ArrayPrices';
@@ -28,7 +29,8 @@ root.render(
    {/* <PassArray/> */}
    {/* <ArrayPrices/> */}
    {/* <Frist/> */}
-    <SubmitForm/>
+    {/* <SubmitForm/> */}
+    <Toping/>
   </React.StrictMode>
 );
 
